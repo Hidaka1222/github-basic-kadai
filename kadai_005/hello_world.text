@@ -1,0 +1,19 @@
+PS C:\git_challenge> git init
+Initialized empty Git repository in C:/git_challenge/.git/
+PS C:\git_challenge> git add hello_world.txt
+PS C:\git_challenge> git commit -a -m "Hello, world!"     
+[main (root-commit) 2740c02] Hello, world!
+ create mode 100644 hello_world.txt
+PS C:\git_challenge> git add hello_world.txt
+PS C:\git_challenge> git commit -m "こんにちは、世界！"   
+On branch main
+nothing to commit, working tree clean
+PS C:\git_challenge> git log
+commit 2740c027f5427859129bf7b8f3f5d29a7d523c6b (HEAD -> main)
+Author: Hidaka1222 <sugardaka26@gmail.com>
+Date:   Mon Aug 12 13:44:07 2024 +0900
+
+    Hello, world!
+PS C:\git_challenge> git status
+On branch main
+nothing to commit, working tree clean
